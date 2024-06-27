@@ -3,10 +3,10 @@ from setuptools import setup, find_packages
 setup(
     name='SitkMetrics',
     version='1.0',
-    description='A library for calculating imagesegmentation metrics using SimpleITK',
+    description='A library for calculating image segmentation metrics using SimpleITK',
     author='Peyman Pakzaban',
     author_email='pakzaban@gmail.com',
-    url='https://github.com/yourusername/SitkMetrics',
+    url='https://github.com/pakzaban/SitkMetrics',
     packages=find_packages(),
     install_requires=[
         'numpy',
